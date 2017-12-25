@@ -18,6 +18,10 @@ Since the CSS also uses media queries, it might also be necessary to change the 
 ## Print
 Also included is a printing media query. It has not been tested yet, and mainly uses HTML5 Boilerplate defaults.
 
+When using pandoc,You can write a page break by writing as follows.
+```
+### New Page {.newpage}
+```
 
 ## Credits
 - [HTML5 Boilerplate](http://h5bp.com) - For normalize.css and media queries.
